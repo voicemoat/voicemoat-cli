@@ -1,0 +1,41 @@
+{
+  "name": "voicemoat",
+  "version": "0.1.0",
+  "description": "VoiceMoat from your terminal: draft LinkedIn and Twitter posts in your voice, check drafts, read your analytics, and schedule or publish with a preview first.",
+  "type": "module",
+  "bin": {
+    "voicemoat": "bin/voicemoat.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/cli.test.mjs"
+  },
+  "keywords": [
+    "voicemoat",
+    "linkedin",
+    "twitter",
+    "content",
+    "mcp",
+    "cli",
+    "agent-skills"
+  ],
+  "homepage": "https://voicemoat.com/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voicemoat/voicemoat-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voicemoat/voicemoat-cli/issues"
+  },
+  "author": "VoiceMoat <founder@voicemoat.com>",
+  "license": "MIT"
+}
